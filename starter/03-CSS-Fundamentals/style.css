@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 26px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#author {
+  font-style: italic;
+}
+
+.related-posts {
+  list-style: none;
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+.related-author {
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.page-header {
+  background-color: #f7f7f7;
+}

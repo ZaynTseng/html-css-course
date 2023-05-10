@@ -61,3 +61,25 @@ footer {
 .page-header {
   background-color: #f7f7f7;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #0fbcd7;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}

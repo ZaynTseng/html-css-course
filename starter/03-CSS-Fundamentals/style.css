@@ -10,6 +10,11 @@ h4 {
   color: #1098ad;
 }
 
+.page-header {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
 h1 {
   font-size: 22px;
   text-transform: uppercase;
@@ -56,10 +61,6 @@ footer {
 .related-author {
   font-weight: bold;
   margin-top: 2px;
-}
-
-.page-header {
-  background-color: #f7f7f7;
 }
 
 li:first-child {

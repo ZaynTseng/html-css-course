@@ -331,3 +331,227 @@
   transform: scale(1.1);
   opacity: 0.6;
 }
+
+/********** SECTION PRICING **********/
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
+  border-radius: 11px;
+  transition: all 0.3s;
+}
+
+.pricing-plan-a {
+  padding: 4.8rem;
+  background-color: #fdf2e9;
+}
+
+.pricing-plan-b {
+  padding: 4.6rem;
+  border: 2px solid #fdf2e9;
+  position: relative;
+}
+
+/* .pricing-plan-b::after {
+  content: "Best Value";
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  top: 0;
+  right: 0;
+  background-color: #ffd43b;
+  padding: 0.8rem 3.2rem;
+} */
+
+.pricing-plan:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.8rem;
+}
+
+.pricing-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.pricing-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.price-per-month {
+  font-size: 1.8rem;
+  color: #6f6f6f;
+}
+
+.pricing-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.pricing-features-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.pricing-features-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+.pricing-signup {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.pricing-plan-a li:last-child {
+  text-decoration: line-through;
+}
+
+.pricing-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #6f6f6f;
+}
+
+.feature-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #e67e22;
+  margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  color: #6f6f6f;
+  line-height: 1.5;
+}
+
+/********** SECTION CALL TO ACTION **********/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta-grid {
+  grid-template-columns: 2fr 1fr;
+  border-radius: 11px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom, #eb984e, #e67e22);
+  /* height: 50rem; */
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 3.6rem 4.8rem 4.8rem 4.8rem;
+  color: #fff;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 3.6rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(235, 151, 78, 0.3),
+      rgba(230, 125, 34, 0.3)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover; /* cover the entire image */
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block; /* to make the label appear above the input */
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+}
+
+.cta-form select {
+  appearance: none;
+}
+
+.cta-input::placeholder {
+  color: #aaa;
+}
+
+.cta-input:not(:placeholder-shown) {
+  color: #000;
+}
+
+.cta-button {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1.2rem;
+  display: inline-block;
+  border-radius: 9px;
+  transition: all 0.3s;
+  color: #e67e22;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  align-self: end;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #fdf2e9;
+  color: #cf711f;
+}

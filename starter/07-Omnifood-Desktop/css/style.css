@@ -463,7 +463,7 @@
 
 /********** SECTION CALL TO ACTION **********/
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 19.2rem 0;
 }
 
 .cta-grid {
@@ -554,4 +554,85 @@
 .cta-button:hover {
   background-color: #fdf2e9;
   color: #cf711f;
+}
+
+/********** SECTION FOOTER **********/
+.footer {
+  padding: 4.8rem 0;
+  background-color: #ddd;
+}
+
+.footer-container {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.footer-logo-link {
+  /* to apply the vertical spacing,
+  because a link is just an inline element */
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.footer-copyright {
+  margin-top: auto;
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.footer-address address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  gap: 1.4rem;
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.footer-links {
+  display: flex;
+  /* to make it vertical, rather than horizontally aligned */
+  flex-direction: column;
+  gap: 1.4rem;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.footer-links a:link,
+.footer-links a:visited,
+.social-links a:link,
+.social-links a:visited {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.footer-links a:hover,
+.footer-links a:active,
+.social-links a:hover,
+.social-links a:active {
+  color: #e67e22;
 }
